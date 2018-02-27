@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'TheSalvador-Serif';
+  src:     url('webfonts/TheSalvador-Serif.woff') format('woff');
+}
+@font-face {
+  font-family: 'TheSalvador-Script';
+  src:     url('webfonts/TheSalvador-Script.woff') format('woff');
+}
+html,body { height:100%; font-family: 'Open Sans', sans-serif;
+}
+
+.navlogo {background-image: url(../images/blackbg.jpg); background-size: cover;}
+.logo {width: 10%; height: 10%; min-width:100px; padding-top: 10px;}
+
+.nav {
+color: #fff;
+  font-family: 'TheSalvador-Serif', sans-serif;
+}
+
+.card-header{  font-family: 'TheSalvador-Serif', sans-serif; background-color:#000;}
+.btn-link {color:#fff;}
+.btn-link:hover{color:#d89b00; text-decoration: none;}
+
+.nav a {color:inherit;}
+#active {color:#d89b00;}
+#fname {margin-bottom: 10px;}
+#phone {width: 40%; display:inline-block;}
+#email {width: 59%; display:inline-block;}
+.publishcard {width: 100%;}
+h1 {font-weight: 800; text-align: center;}
+.jumbotron {margin-top: 3rem; padding-top: 2rem; background-color: rgba(255,255,255,.95);}
+.contactron { background-image: url(../images/originalfade.jpg); background-position: center; background-size: cover; background-repeat: no-repeat;}
+.contactbod {background-color: 	rgba(233, 236, 239, .50);}
+.contactbox { padding: 3rem;}
+.contacthed {width: 100%; margin: 0; z-index: -20; position: sticky;}
+.display-5 {font-size: 1.5rem; text-transform: uppercase;}
+.lead {text-align: center; font-size: 1rem;}
+.btn-outline-info {border-color: #d89b00; color: #d89b00;}
+.btn-outline-info:hover {background-color:#000; color: #fff; border-color:#000;}
+.reese {width: 100%;}
+.introbody {padding: 1em; padding-bottom: 3em; background-color: #000; color: #fff;}
+.intro { font-family: 'TheSalvador-Serif', sans-serif; font-size: 1.5rem; line-height: 2.25rem;}
+.introcopy {font-size: .95rem; line-height: 1.2rem;}
+.ideabox {width: 90%; background-color: #eee; margin-top: -1.5em; padding: 2em; box-shadow: 0px 5px 25px #888888;}
+.icon-card{text-align: center;}
+.icon {color: #d89b00; font-size: 3rem; margin-bottom: .5rem;}
+.iconlink {color: inherit; text-decoration: none;}
+.iconlink:hover {color: inherit; text-decoration: none;}
